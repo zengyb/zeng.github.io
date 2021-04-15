@@ -974,3 +974,34 @@ td {
 .hljs-strong {
   font-weight: bold;
 }
+
+      .post-container .post .post-title {
+        text-align: center;
+      }
+      .post-container .post .post-info {
+        text-align: center;
+      }
+      .post-detail .post .post-title {
+        text-align: center;
+      }
+      .post-detail .post .post-info {
+        text-align: center;
+      }
+    
+      body {
+        font-family: Georgia, serif;
+      }
+    
+      
+body {
+  font-family: Georgia,Palatino, serif;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  color: #333;
+  background-color: #FCF5ED;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+    
