@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zengyb.github.io</id>
     <title>Gridea</title>
-    <updated>2021-04-15T07:38:58.274Z</updated>
+    <updated>2021-04-15T08:44:01.515Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zengyb.github.io"/>
     <link rel="self" href="https://zengyb.github.io/atom.xml"/>
@@ -10,6 +10,36 @@
     <logo>https://zengyb.github.io/images/avatar.png</logo>
     <icon>https://zengyb.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[诗歌一]]></title>
+        <id>https://zengyb.github.io/post/hymn001/</id>
+        <link href="https://zengyb.github.io/post/hymn001/">
+        </link>
+        <updated>2021-04-15T08:40:08.000Z</updated>
+        <content type="html"><![CDATA[<p>英文：E1</p>
+<p>诗人：葛兰德(J.F.Garland)</p>
+<p>音调：降A大调4/4</p>
+<p>韵律：8583</p>
+<p>一</p>
+<p>但愿荣耀归于圣父，并圣子基督，<br>
+且愿荣耀归于圣灵到永古。</p>
+<p>二</p>
+<p>当我观赏广大创造─神智所制订，<br>
+我灵受感，立献敬拜，并肃静。</p>
+<p>三</p>
+<p>但是我神，你是深愿：能得有众子，<br>
+今在子里对你赞美，并赏识。</p>
+<p>四</p>
+<p>你话已向我们启示，你情爱秘密，<br>
+为要我们领略接受，以爱你。</p>
+<p>五</p>
+<p>因此借着基督救赎，既将敌全克，<br>
+在新造里你就带来敬拜者。</p>
+<p>六</p>
+<p>但愿荣耀归于圣父，并圣子基督，<br>
+且愿荣耀归于圣灵到永古。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[诗篇一二二]]></title>
         <id>https://zengyb.github.io/post/psalm122/</id>
