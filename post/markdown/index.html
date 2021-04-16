@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Markdown常用语法 | MYMP</title>
-<link rel="shortcut icon" href="https://zengyb.github.io/favicon.ico?v=1618550596403">
+<link rel="shortcut icon" href="https://zengyb.github.io/favicon.ico?v=1618554275843">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://zengyb.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="Markdown常用语法 | MYMP - Atom Feed" href="https://zengyb.github.io/atom.xml">
@@ -20,14 +20,24 @@
 </script>
 
 
-    <meta name="description" content="一、Markdown标题
-使用 # 号可表示 1-6 级标题，一级标题对应一个 # 号，二级标题对应两个 # 号，以此类推。
-使用#号标记标题语法格式：
-# 一级标题
-## 二级标题
-### 三级标题
-#### 四级标题
-##### 五级标..." />
+    <meta name="description" content="
+一、Markdown标题
+二、Markdown段落
+
+2.1 字体
+2.2 分隔线
+2.3 删除线
+2.4 下划线
+2.5 脚注
+
+
+三、Markdown 列表
+
+3.1 有序列表和无序列表
+3.2 列表嵌套
+
+
+四、Markdown区块..." />
     <meta name="keywords" content="学习" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -37,7 +47,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://zengyb.github.io">
-  <img class="avatar" src="https://zengyb.github.io/images/avatar.png?v=1618550596403" alt="">
+  <img class="avatar" src="https://zengyb.github.io/images/avatar.png?v=1618554275843" alt="">
   </a>
   <h1 class="site-title">
     MYMP
@@ -108,8 +118,54 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>一、Markdown标题<br>
-使用 # 号可表示 1-6 级标题，一级标题对应一个 # 号，二级标题对应两个 # 号，以此类推。</p>
+                <p><ul class="markdownIt-TOC">
+<li><a href="#%E4%B8%80-markdown%E6%A0%87%E9%A2%98">一、Markdown标题</a></li>
+<li><a href="#%E4%BA%8C-markdown%E6%AE%B5%E8%90%BD">二、Markdown段落</a>
+<ul>
+<li><a href="#21-%E5%AD%97%E4%BD%93">2.1 字体</a></li>
+<li><a href="#22-%E5%88%86%E9%9A%94%E7%BA%BF">2.2 分隔线</a></li>
+<li><a href="#23-%E5%88%A0%E9%99%A4%E7%BA%BF">2.3 删除线</a></li>
+<li><a href="#24-%E4%B8%8B%E5%88%92%E7%BA%BF">2.4 下划线</a></li>
+<li><a href="#25-%E8%84%9A%E6%B3%A8">2.5 脚注</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B8%89-markdown-%E5%88%97%E8%A1%A8">三、Markdown 列表</a>
+<ul>
+<li><a href="#31-%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8%E5%92%8C%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8">3.1 有序列表和无序列表</a></li>
+<li><a href="#32-%E5%88%97%E8%A1%A8%E5%B5%8C%E5%A5%97">3.2 列表嵌套</a></li>
+</ul>
+</li>
+<li><a href="#%E5%9B%9B-markdown%E5%8C%BA%E5%9D%97">四、Markdown区块</a>
+<ul>
+<li><a href="#41-%E5%8C%BA%E5%9D%97%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%88%97%E8%A1%A8">4.1 区块中使用列表</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BA%94-markdown%E4%BB%A3%E7%A0%81%E6%A1%86">五、Markdown代码框</a>
+<ul>
+<li><a href="#51-%E4%BB%A3%E7%A0%81%E5%8C%BA%E5%9D%97">5.1 代码区块</a></li>
+</ul>
+</li>
+<li><a href="#%E5%85%AD-markdown%E9%93%BE%E6%8E%A5">六、Markdown链接</a>
+<ul>
+<li><a href="#61-%E9%AB%98%E7%BA%A7%E9%93%BE%E6%8E%A5">6.1 高级链接</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B8%83-markdown%E5%9B%BE%E7%89%87">七、Markdown图片</a></li>
+<li><a href="#%E5%85%AB-markdown%E8%A1%A8%E6%A0%BC">八、Markdown表格</a>
+<ul>
+<li><a href="#81-%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F">8.1 对齐方式</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B9%9D-markdown%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7">九、Markdown高级技巧</a>
+<ul>
+<li><a href="#91-%E8%BD%AC%E4%B9%89">9.1 转义</a></li>
+<li><a href="#92-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F">9.2 数学公式</a></li>
+</ul>
+</li>
+</ul>
+</p>
+<h1 id="一-markdown标题">一、Markdown标题</h1>
+<p>使用 # 号可表示 1-6 级标题，一级标题对应一个 # 号，二级标题对应两个 # 号，以此类推。</p>
 <p>使用#号标记标题语法格式：</p>
 <p><code># 一级标题</code></p>
 <p><code>## 二级标题</code></p>
@@ -117,9 +173,9 @@
 <p><code>#### 四级标题</code></p>
 <p><code>##### 五级标题</code></p>
 <p><code>###### 六级标题</code></p>
-<p>三、Markdown段落<br>
-Markdown的段落没有特殊的格式，直接编写文字就好，段落的换行号是使用两个以上的空格加回车。</p>
-<p>3.1 字体</p>
+<h1 id="二-markdown段落">二、Markdown段落</h1>
+<p>Markdown的段落没有特殊的格式，直接编写文字就好，段落的换行号是使用两个以上的空格加回车。</p>
+<h2 id="21-字体">2.1 字体</h2>
 <p>Markdown 可以使用以下几种字体：</p>
 <p>用1个星号<em>或底线_表示斜体<br>
 用2个星号</em>或底线_表示粗体<br>
@@ -131,26 +187,26 @@ Markdown的段落没有特殊的格式，直接编写文字就好，段落的换
 <p><code>__粗体文字__</code></p>
 <p><code>***粗斜体文字***</code></p>
 <p><code>___粗斜体文字___</code></p>
-<p>3.2 分隔线</p>
+<h2 id="22-分隔线">2.2 分隔线</h2>
 <p>可以在一行中用三个以上的星号*、减号-、底线_来建立一个分隔线，行内不能有其他东西，你也可以在星号或减号蹭插入空格。下面这种写法都可以建立分隔线：</p>
 <p><code>***</code><br>
 <code>* * *</code><br>
 <code>******</code><br>
 <code>- - -</code><br>
 <code>------</code></p>
-<p>3.3 删除线</p>
+<h2 id="23-删除线">2.3 删除线</h2>
 <p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线~~即可。</p>
 <p>语法格式：</p>
 <p><code>~~tencent.com~~</code></p>
-<p>3.4 下划线</p>
+<h2 id="24-下划线">2.4 下划线</h2>
 <p>下划线可以通过HTML的标签来实现</p>
 <p><code>&lt;u&gt;带下划线文本&lt;/u&gt;</code></p>
-<p>3.5 脚注</p>
+<h2 id="25-脚注">2.5 脚注</h2>
 <p>脚注是对文本的补充说明。</p>
 <p>Markdown脚注的格式如下：</p>
 <p>[^要注明的文本]：</p>
-<p>四、Markdown 列表<br>
-4.1 有序列表和无序列表</p>
+<h1 id="三-markdown-列表">三、Markdown 列表</h1>
+<h2 id="31-有序列表和无序列表">3.1 有序列表和无序列表</h2>
 <p>Markdown支持有序列表和无序列表，无序列表使用星号(*)、加号(+)或者减号(-)作为标记：</p>
 <p><code>* 第一项</code><br>
 <code>* 第二项</code><br>
@@ -161,7 +217,7 @@ Markdown的段落没有特殊的格式，直接编写文字就好，段落的换
 <li>第二项</li>
 <li>第三项</li>
 </ol>
-<p>4.2 列表嵌套</p>
+<h2 id="32-列表嵌套">3.2 列表嵌套</h2>
 <p>列表嵌套只需在子列表的选项前添加四个空格即可：</p>
 <ol>
 <li>第一项：
@@ -177,8 +233,8 @@ Markdown的段落没有特殊的格式，直接编写文字就好，段落的换
 </ul>
 </li>
 </ol>
-<p>五、Markdown区块<br>
-Markdown区块引用是在段落开头使用&gt;符号，然后后面紧跟一个空格符号：</p>
+<h1 id="四-markdown区块">四、Markdown区块</h1>
+<p>Markdown区块引用是在段落开头使用&gt;符号，然后后面紧跟一个空格符号：</p>
 <p><code>&gt; 区块引用</code><br>
 <code>&gt; Markdown教程</code><br>
 <code>&gt; 学的不仅是技术更是梦想</code></p>
@@ -186,7 +242,7 @@ Markdown区块引用是在段落开头使用&gt;符号，然后后面紧跟一�
 <p><code>&gt; 最外层</code><br>
 <code>&gt;&gt; 第一层嵌套</code><br>
 <code>&gt;&gt;&gt; 第二层嵌套</code></p>
-<p>5.1 区块中使用列表</p>
+<h2 id="41-区块中使用列表">4.1 区块中使用列表</h2>
 <p>区块中使用列表实例如下：</p>
 <p><code>&gt; 区块中使用列表</code><br>
 <code>&gt; 1. 第一项</code><br>
@@ -199,11 +255,11 @@ Markdown区块引用是在段落开头使用&gt;符号，然后后面紧跟一�
 <code>&gt; Markdown教程</code><br>
 <code>&gt; 学的不仅是技术更是梦想</code><br>
 <code>* 第二项</code></p>
-<p>六、Markdown代码框<br>
-如果是段落上的一个函数或片段的代码可以用两个'把它包起来。</p>
+<h1 id="五-markdown代码框">五、Markdown代码框</h1>
+<p>如果是段落上的一个函数或片段的代码可以用两个'把它包起来。</p>
 <pre><code>'print()' 函数
 </code></pre>
-<p>6.1 代码区块</p>
+<h2 id="51-代码区块">5.1 代码区块</h2>
 <p>代码区块使用4个空格或者一个制表符（Tab键）。</p>
 <pre><code>&lt;?Python
 print('Markdown')
@@ -217,15 +273,15 @@ alert('Markdown');
 });
 '''
 </code></pre>
-<p>七、Markdown链接<br>
-链接使用方法如下：</p>
+<h1 id="六-markdown链接">六、Markdown链接</h1>
+<p>链接使用方法如下：</p>
 <pre><code>[链接名称](链接地址)
 </code></pre>
 <p>或者<br>
 &lt;链接地址&gt;</p>
 <p>这是一个链接 <a href="https://news.sina.com.cn/">新浪新闻</a><br>
 <a href="https://news.sina.com.cn/">https://news.sina.com.cn/</a></p>
-<p>7.1 高级链接</p>
+<h2 id="61-高级链接">6.1 高级链接</h2>
 <p>链接也可以用变量来代替，文档末尾附带变量地址：</p>
 <pre><code>这个链接用1作为网址变量[baidu][1]
 这个链接用markdown作为网址变量[Markdown][markdown]
@@ -235,8 +291,8 @@ alert('Markdown');
 [markdown]: http://www.markdown.com
 </code></pre>
 <p>链接也可以用变量来代替，文档末尾附带变量地址： 这个链接用1作为网址变量baidu 这个链接用markdown作为网址变量Markdown 然后文档的结尾为变量赋值(网址)</p>
-<p>八、Markdown图片<br>
-Markdown图片语法格式为：</p>
+<h1 id="七-markdown图片">七、Markdown图片</h1>
+<p>Markdown图片语法格式为：</p>
 <pre><code>![alt 属性文本](图片地址)
 ![alt 属性文本](图片地址 &quot;可选标题&quot;)
 </code></pre>
@@ -255,8 +311,8 @@ Markdown图片语法格式为：</p>
 <p>标签。</p>
 <pre><code>&lt;img src=“https://pic4.zhimg.com/80/v2-a47051e92cf74930bedd7469978e6c08_hd.png” width=10%&gt;
 </code></pre>
-<p>九、Markdown表格<br>
-Markdown制作表格使用|来分隔不同的单元格，使用-来分隔表头和其他行。</p>
+<h1 id="八-markdown表格">八、Markdown表格</h1>
+<p>Markdown制作表格使用|来分隔不同的单元格，使用-来分隔表头和其他行。</p>
 <p>语法格式：</p>
 <pre><code>| 表头1    | 表头2    |
 | -------- | -------- |
@@ -282,7 +338,7 @@ Markdown制作表格使用|来分隔不同的单元格，使用-来分隔表头�
 </tr>
 </tbody>
 </table>
-<p>9.1 对齐方式</p>
+<h2 id="81-对齐方式">8.1 对齐方式</h2>
 <p>可以设置表头的对齐方式：</p>
 <p>-: 设置内容或标题栏右对齐<br>
 :- 设置内容或标题栏左对齐<br>
@@ -315,38 +371,33 @@ Markdown制作表格使用|来分隔不同的单元格，使用-来分隔表头�
 </tr>
 </tbody>
 </table>
-<p>十、Markdown高级技巧<br>
-支持的HTML元素</p>
+<h1 id="九-markdown高级技巧">九、Markdown高级技巧</h1>
+<p>支持的HTML元素</p>
 <p>不在Markdown涵盖范围之内的标签，都可以直接在文档里面用HTML撰写。</p>
 <p>目前支持的HTML元素有：<br>
 等 ，如：</p>
 <p>使用<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd>重启电脑</p>
-<p>10.1 转义</p>
+<h2 id="91-转义">9.1 转义</h2>
 <p>Markdown使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown使用反斜杠转义特殊字符：</p>
 <p><strong>文本加粗</strong><br>
 **正常显示星号**<br>
 显示效果:</p>
 <p>文本加粗 <strong>正常显示星号</strong></p>
 <p>Mrkdown支持以下这些符号前面加上反斜杠来帮助插入普通符号：</p>
-<p>\   反斜线<br>
-`   反引号</p>
-<ul>
-<li>星号<br>
-_   下划线<br>
-{}  花括号<br>
-[]  方括号<br>
-()  小括号</li>
-</ul>
-<h1 id="井字号">井字号</h1>
-<ul>
-<li>加号</li>
-</ul>
-<ul>
-<li>减号<br>
-.   英文句点<br>
-!   感叹号<br>
-10.2 数学公式</li>
-</ul>
+<pre><code>\   反斜线
+`   反引号
+*   星号
+_   下划线
+{}  花括号
+[]  方括号
+()  小括号
+#   井字号
++   加号
+-   减号
+.   英文句点
+!   感叹号
+</code></pre>
+<h2 id="92-数学公式">9.2 数学公式</h2>
 <p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。</p>
 <p>实例如下：</p>
 <pre><code>$$
@@ -360,7 +411,49 @@ $$
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
-<li><a href="#%E4%BA%95%E5%AD%97%E5%8F%B7">井字号</a></li>
+<li><a href="#%E4%B8%80-markdown%E6%A0%87%E9%A2%98">一、Markdown标题</a></li>
+<li><a href="#%E4%BA%8C-markdown%E6%AE%B5%E8%90%BD">二、Markdown段落</a>
+<ul>
+<li><a href="#21-%E5%AD%97%E4%BD%93">2.1 字体</a></li>
+<li><a href="#22-%E5%88%86%E9%9A%94%E7%BA%BF">2.2 分隔线</a></li>
+<li><a href="#23-%E5%88%A0%E9%99%A4%E7%BA%BF">2.3 删除线</a></li>
+<li><a href="#24-%E4%B8%8B%E5%88%92%E7%BA%BF">2.4 下划线</a></li>
+<li><a href="#25-%E8%84%9A%E6%B3%A8">2.5 脚注</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B8%89-markdown-%E5%88%97%E8%A1%A8">三、Markdown 列表</a>
+<ul>
+<li><a href="#31-%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8%E5%92%8C%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8">3.1 有序列表和无序列表</a></li>
+<li><a href="#32-%E5%88%97%E8%A1%A8%E5%B5%8C%E5%A5%97">3.2 列表嵌套</a></li>
+</ul>
+</li>
+<li><a href="#%E5%9B%9B-markdown%E5%8C%BA%E5%9D%97">四、Markdown区块</a>
+<ul>
+<li><a href="#41-%E5%8C%BA%E5%9D%97%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%88%97%E8%A1%A8">4.1 区块中使用列表</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BA%94-markdown%E4%BB%A3%E7%A0%81%E6%A1%86">五、Markdown代码框</a>
+<ul>
+<li><a href="#51-%E4%BB%A3%E7%A0%81%E5%8C%BA%E5%9D%97">5.1 代码区块</a></li>
+</ul>
+</li>
+<li><a href="#%E5%85%AD-markdown%E9%93%BE%E6%8E%A5">六、Markdown链接</a>
+<ul>
+<li><a href="#61-%E9%AB%98%E7%BA%A7%E9%93%BE%E6%8E%A5">6.1 高级链接</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B8%83-markdown%E5%9B%BE%E7%89%87">七、Markdown图片</a></li>
+<li><a href="#%E5%85%AB-markdown%E8%A1%A8%E6%A0%BC">八、Markdown表格</a>
+<ul>
+<li><a href="#81-%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F">8.1 对齐方式</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B9%9D-markdown%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7">九、Markdown高级技巧</a>
+<ul>
+<li><a href="#91-%E8%BD%AC%E4%B9%89">9.1 转义</a></li>
+<li><a href="#92-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F">9.2 数学公式</a></li>
+</ul>
+</li>
 </ul>
 
               </div>
