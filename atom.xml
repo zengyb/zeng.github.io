@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zengyb.github.io</id>
     <title>MYMP</title>
-    <updated>2021-04-27T07:28:18.938Z</updated>
+    <updated>2021-05-24T01:28:35.032Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zengyb.github.io"/>
     <link rel="self" href="https://zengyb.github.io/atom.xml"/>
@@ -11,55 +11,360 @@
     <icon>https://zengyb.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, MYMP</rights>
     <entry>
-        <title type="html"><![CDATA[年岁]]></title>
-        <id>https://zengyb.github.io/post/nian-sui/</id>
-        <link href="https://zengyb.github.io/post/nian-sui/">
+        <title type="html"><![CDATA[音标对照表]]></title>
+        <id>https://zengyb.github.io/post/yin-biao-dui-zhao-biao/</id>
+        <link href="https://zengyb.github.io/post/yin-biao-dui-zhao-biao/">
         </link>
-        <updated>2021-04-25T06:04:03.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="一个月">一个月</h2>
-<p>估价分界线——利二十七5</p>
-<h2 id="五岁">五岁</h2>
-<p>估价分界线——利二十七5</p>
-<h2 id="二十岁">二十岁</h2>
-<p>被数点的年岁——出三十八26<br>
-数点成军的年岁——民一3<br>
-估价分界线——利二十七5</p>
-<h2 id="二十五岁">二十五岁</h2>
-<p>利未人开始事奉的年龄（学习期）——民八24</p>
-<h2 id="三十岁">三十岁</h2>
-<p>约瑟治理埃及地——创四十一46<br>
-利未人进会幕事奉的年龄——民四3<br>
-大卫登基作王——撒下五4<br>
-耶稣开始尽职——路三23</p>
-<h2 id="四十岁">四十岁</h2>
-<p>摩西逃离埃及地——徒七23<br>
-迦勒被派窥探美地——书十四6<br>
-以色列人在旷野的年日——民十四33<br>
-扫罗、大卫、所罗门作王的年日——撒下五4、王上十一42、徒十三21</p>
-<h2 id="五十岁">五十岁</h2>
-<p>利未人从事奉的工作上退去——民八25</p>
-<h2 id="六十岁">六十岁</h2>
-<p>估价分界线——利二十七3</p>
-<h2 id="七十岁">七十岁</h2>
-<p>我们一生的年日是七十岁——诗九十10</p>
-<h2 id="八十岁">八十岁</h2>
-<p>摩西看见火烧荆棘的异象——出七7<br>
-一生的年日，若是强壮可到八十——诗九十10</p>
-<h2 id="一百岁">一百岁</h2>
-<p>亚伯拉罕生以撒——创二十一5</p>
-<h2 id="一百二十岁">一百二十岁</h2>
-<p>摩西死的年岁——申三十四7</p>
-<h2 id="九百六十九岁">九百六十九岁</h2>
-<p>玛土撒拉，人类最长的寿命——创五27</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新旧约家谱]]></title>
-        <id>https://zengyb.github.io/post/jiapu/</id>
-        <link href="https://zengyb.github.io/post/jiapu/">
-        </link>
-        <updated>2021-04-22T05:58:27.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://zengyb.github.io/post-images/1619071135458.png" alt="" loading="lazy"></figure>
+        <updated>2021-05-10T02:21:21.000Z</updated>
+        <content type="html"><![CDATA[<table>
+<thead>
+<tr>
+<th>韦氏</th>
+<th>IPA</th>
+<th>DJ新, 旧</th>
+<th>K.K.</th>
+<th>例词</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/ə/</td>
+<td>/ə/</td>
+<td>/ə/</td>
+<td>/ə/</td>
+<td><strong>a</strong>but</td>
+</tr>
+<tr>
+<td>/ˈə, ˌə/</td>
+<td>/ʌ/</td>
+<td>/ʌ/</td>
+<td>/ʌ/</td>
+<td>ab<strong>u</strong>t</td>
+</tr>
+<tr>
+<td>/ər/</td>
+<td>/ɝ, ɚ/</td>
+<td>/ɜːr, əːr/</td>
+<td>/ɝ, ɚ/</td>
+<td>f<strong>ur</strong>th<strong>er</strong></td>
+</tr>
+<tr>
+<td>/a/</td>
+<td>/æ/</td>
+<td>/æ/</td>
+<td>/æ/</td>
+<td>m<strong>a</strong>p</td>
+</tr>
+<tr>
+<td>/ā/</td>
+<td>/e, eɪ, ei/</td>
+<td>/eɪ, ei/</td>
+<td>/e/</td>
+<td>d<strong>a</strong>y</td>
+</tr>
+<tr>
+<td>/ä/</td>
+<td>/ɑ/</td>
+<td>/ɑː, ɒ, ɔ/</td>
+<td>/ɑ/</td>
+<td>b<strong>o</strong>ther</td>
+</tr>
+<tr>
+<td>/är/</td>
+<td>/ɑɚ, aɚ, ɒɚ/</td>
+<td>/ɑːr/</td>
+<td>/ɑr/</td>
+<td>c<strong>ar</strong></td>
+</tr>
+<tr>
+<td>/au̇/</td>
+<td>/aʊ, au/</td>
+<td>/aʊ, au/</td>
+<td>/aᴜ/</td>
+<td>n<strong>ow</strong></td>
+</tr>
+<tr>
+<td>/b/</td>
+<td>/b/</td>
+<td>/b/</td>
+<td>/b/</td>
+<td><strong>b</strong>a<strong>b</strong>y</td>
+</tr>
+<tr>
+<td>/ch/</td>
+<td>/tʃ/</td>
+<td>/tʃ/</td>
+<td>/tʃ/</td>
+<td><strong>ch</strong>in</td>
+</tr>
+<tr>
+<td>/d/</td>
+<td>/d/</td>
+<td>/d/</td>
+<td>/d/</td>
+<td><strong>d</strong>i<strong>d</strong></td>
+</tr>
+<tr>
+<td>/e/</td>
+<td>/ɛ/</td>
+<td>/e/</td>
+<td>/ɛ/</td>
+<td>b<strong>e</strong>d</td>
+</tr>
+<tr>
+<td>/er/</td>
+<td>/eɚ, ɛɚ/</td>
+<td>/eə, ɛə/</td>
+<td>/ɛr/</td>
+<td>f<strong>air</strong></td>
+</tr>
+<tr>
+<td>/ˈē, ˌē/</td>
+<td>/i/</td>
+<td>/iː/</td>
+<td>/i/</td>
+<td>b<strong>ea</strong>t</td>
+</tr>
+<tr>
+<td>/ē/</td>
+<td>/i, ɪ/</td>
+<td>/iː, ɪ, i/</td>
+<td>/i, ɪ/</td>
+<td>eas<strong>y</strong></td>
+</tr>
+<tr>
+<td>/f/</td>
+<td>/f/</td>
+<td>/f/</td>
+<td>/f/</td>
+<td><strong>f</strong>ly</td>
+</tr>
+<tr>
+<td>/g/</td>
+<td>/g/</td>
+<td>/g/</td>
+<td>/ɡ/</td>
+<td><strong>g</strong>o</td>
+</tr>
+<tr>
+<td>/h/</td>
+<td>/h/</td>
+<td>/h/</td>
+<td>/h/</td>
+<td><strong>h</strong>at</td>
+</tr>
+<tr>
+<td>/hw/</td>
+<td>/ʍ/</td>
+<td>/w/</td>
+<td>/w, hw/</td>
+<td><strong>wh</strong>ale</td>
+</tr>
+<tr>
+<td>/i/</td>
+<td>/ɪ/</td>
+<td>/ɪ, i/</td>
+<td>/ɪ/</td>
+<td>t<strong>i</strong>p</td>
+</tr>
+<tr>
+<td>/ir/</td>
+<td>/iɚ, ɪɚ/</td>
+<td>/iːə, ɪə, iə/</td>
+<td>/ir, ɪr/</td>
+<td>n<strong>ear</strong></td>
+</tr>
+<tr>
+<td>/ī/</td>
+<td>/aɪ, ai, ɑɪ, ɑi/</td>
+<td>/aɪ, ai/</td>
+<td>/aɪ/</td>
+<td>s<strong>i</strong>te</td>
+</tr>
+<tr>
+<td>/j/</td>
+<td>/dʒ/</td>
+<td>/dʒ/</td>
+<td>/dʒ/</td>
+<td><strong>j</strong>ob</td>
+</tr>
+<tr>
+<td>/k/</td>
+<td>/k/</td>
+<td>/k/</td>
+<td>/k/</td>
+<td><strong>k</strong>in</td>
+</tr>
+<tr>
+<td>/ḵ/</td>
+<td>/x/</td>
+<td>/k/</td>
+<td>/k/</td>
+<td>lo<strong>ch</strong></td>
+</tr>
+<tr>
+<td>/l/</td>
+<td>/l, ɫ/</td>
+<td>/l/</td>
+<td>/l/</td>
+<td><strong>l</strong>i<strong>l</strong>y, poo<strong>l</strong></td>
+</tr>
+<tr>
+<td>/m/</td>
+<td>/m/</td>
+<td>/m/</td>
+<td>/m/</td>
+<td><strong>m</strong>ur<strong>m</strong>ur</td>
+</tr>
+<tr>
+<td>/n/</td>
+<td>/n/</td>
+<td>/n/</td>
+<td>/n/</td>
+<td><strong>n</strong>o</td>
+</tr>
+<tr>
+<td>/ŋ/</td>
+<td>/ŋ/</td>
+<td>/ŋ/</td>
+<td>/ŋ/</td>
+<td>si<strong>ng</strong></td>
+</tr>
+<tr>
+<td>/ō/</td>
+<td>/o, oʊ, ou/</td>
+<td>/əʊ, əu/</td>
+<td>/o/</td>
+<td>b<strong>o</strong>ne</td>
+</tr>
+<tr>
+<td>/ȯ/</td>
+<td>/ɔ/</td>
+<td>/ɔː/</td>
+<td>/ɔ/</td>
+<td><strong>a</strong>ll</td>
+</tr>
+<tr>
+<td>/ȯi/</td>
+<td>/ɔɪ, ɔi, oɪ, oi/</td>
+<td>/ɔɪ, ɔi/</td>
+<td>/ɔɪ/</td>
+<td>c<strong>oi</strong>n</td>
+</tr>
+<tr>
+<td>/ȯr/</td>
+<td>/oɚ, ɔɚ/</td>
+<td>/ɔːr/</td>
+<td>/ɔr/</td>
+<td>p<strong>or</strong>t</td>
+</tr>
+<tr>
+<td>/p/</td>
+<td>/p/</td>
+<td>/p/</td>
+<td>/p/</td>
+<td><strong>p</strong>e<strong>pp</strong>er</td>
+</tr>
+<tr>
+<td>/r/</td>
+<td>/ɹ, ɾ, r, ʀ/</td>
+<td>/r/</td>
+<td>/r/</td>
+<td><strong>r</strong>ed</td>
+</tr>
+<tr>
+<td>/s/</td>
+<td>/s/</td>
+<td>/s/</td>
+<td>/s/</td>
+<td><strong>s</strong>our<strong>ce</strong></td>
+</tr>
+<tr>
+<td>/sh/</td>
+<td>/ʃ/</td>
+<td>/ʃ/</td>
+<td>/ʃ/</td>
+<td><strong>sh</strong>y</td>
+</tr>
+<tr>
+<td>/t/</td>
+<td>/t/, /ɾ/</td>
+<td>/t/</td>
+<td>/t/</td>
+<td><strong>t</strong>ie, la<strong>tt</strong>er</td>
+</tr>
+<tr>
+<td>/th/</td>
+<td>/θ/</td>
+<td>/θ/</td>
+<td>/θ/</td>
+<td><strong>th</strong>in</td>
+</tr>
+<tr>
+<td>/t͟h/</td>
+<td>/ð/</td>
+<td>/ð/</td>
+<td>/ð/</td>
+<td><strong>th</strong>en</td>
+</tr>
+<tr>
+<td>/ü/</td>
+<td>/u/</td>
+<td>/uː/</td>
+<td>/u/</td>
+<td>r<strong>u</strong>le</td>
+</tr>
+<tr>
+<td>/u̇/</td>
+<td>/ʊ/</td>
+<td>/ʊ, u/</td>
+<td>/ʊ/</td>
+<td>p<strong>u</strong>ll</td>
+</tr>
+<tr>
+<td>/u̇r/</td>
+<td>/uɚ, ʊɚ/</td>
+<td>/ʊr/</td>
+<td>/ʊr/</td>
+<td>p<strong>oor</strong></td>
+</tr>
+<tr>
+<td>/v/</td>
+<td>/v/</td>
+<td>/v/</td>
+<td>/v/</td>
+<td><strong>v</strong>i<strong>v</strong>id</td>
+</tr>
+<tr>
+<td>/w/</td>
+<td>/w/</td>
+<td>/w/</td>
+<td>/w/</td>
+<td><strong>w</strong>e</td>
+</tr>
+<tr>
+<td>/y/</td>
+<td>/j/</td>
+<td>/j/</td>
+<td>/j/</td>
+<td><strong>y</strong>ard</td>
+</tr>
+<tr>
+<td>/z/</td>
+<td>/z/</td>
+<td>/z/</td>
+<td>/z/</td>
+<td><strong>z</strong>one</td>
+</tr>
+<tr>
+<td>/zh/</td>
+<td>/ʒ/</td>
+<td>/ʒ/</td>
+<td>/ʒ/</td>
+<td>vi<strong>si</strong>on</td>
+</tr>
+</tbody>
+</table>
 ]]></content>
     </entry>
     <entry>
@@ -345,23 +650,5 @@ $$
 <p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><mtext> </mtext><mi mathvariant="normal">d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int_0^1 {x^2} \,{\rm d}x
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.4759580000000003em;vertical-align:-0.9119499999999999em;"></span><span class="mop"><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.0011249999999999316em;">∫</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.5640080000000003em;"><span style="top:-1.7880500000000001em;margin-left:-0.44445em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span><span style="top:-3.8129000000000004em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9119499999999999em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">d</span></span></span><span class="mord mathdefault">x</span></span></span></span></span></p>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[诗篇一二二]]></title>
-        <id>https://zengyb.github.io/post/psalm122/</id>
-        <link href="https://zengyb.github.io/post/psalm122/">
-        </link>
-        <updated>2021-04-15T05:06:03.000Z</updated>
-        <content type="html"><![CDATA[<p>
-<p>人对我说，我们往耶和华的殿去，我就欢喜。</p>
-<p>耶路撒冷啊，我们的脚，站在你的门内。</p>
-<p>耶路撒冷被建造，如同连络整齐的一座城；</p>
-<p>众支派，就是耶和华的支派，上那里去，作以色列的见证，称谢耶和华的名。</p>
-<p>因为在那里设立了审判的宝座，就是大卫家的宝座。</p>
-<p>你们要为耶路撒冷求平安。耶路撒冷啊，爱你的人必然兴旺。</p>
-<p>愿你城中平安，愿你宫内兴旺。</p>
-<p>因我弟兄和同伴的缘故，我要说，愿平安在你中间。</p>
-<p>因耶和华我们神殿的缘故，我要为你求好处。</p>
-</p>]]></content>
     </entry>
 </feed>
